@@ -1,0 +1,13 @@
+﻿  httpclient.cpp
+  http_client.cpp
+  正在生成代码...
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_global_init，该符号在函数 "public: static void __cdecl System::Net::HttpGobal::Initialize(void)" (?Initialize@HttpGobal@Net@System@@SAXXZ) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_global_cleanup，该符号在函数 "public: static void __cdecl System::Net::HttpGobal::Destroy(void)" (?Destroy@HttpGobal@Net@System@@SAXXZ) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_slist_append，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_slist_free_all，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_init，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_setopt，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_perform，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_cleanup，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+httpclient.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_getinfo，该符号在函数 "private: class System::Net::HttpWebResponse * __cdecl System::Net::HttpWebRequest::GetNetResponse(char const *)" (?GetNetResponse@HttpWebRequest@Net@System@@AEAAPEAVHttpWebResponse@23@PEBD@Z) 中被引用
+D:\vs2017_work\http_client\x64\Debug\http_client.exe : fatal error LNK1120: 9 个无法解析的外部命令
